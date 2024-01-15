@@ -1,0 +1,18 @@
+watch this video before checking codes or functionalty
+https://drive.google.com/file/d/1J_lgmZTNzZg0Rawo793pAPcY18eJvyy5/view?usp=sharing
+
+few commands {
+    open backend folder and run npm i  (same in frontend folder)
+}
+
+schema{
+    open phpMyAdmin and create a database which name is todo
+    and inside todo database create a task table and in this table have two attribute 
+    id(primary key, autoIncrement),taks 
+}
+
+api {
+    GET http://localhost:8000/
+    POST http://localhost:8000/
+    DELETE http://localhost:8000/:id
+}

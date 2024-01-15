@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ul>b{
+    font-size: 30px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding-right: 5px;
+    margin-top: 1rem;
+}
+li>b{
+    margin-left: .9rem;
+    margin-right: 10px;
+}
+
+span{
+  
+    margin-left: auto;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    justify-content: flex-end;
+    background-color: red;
+}
